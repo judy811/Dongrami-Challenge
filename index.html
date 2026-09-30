@@ -29,6 +29,7 @@
   --line:#333D6E; --spiky:#4A4125;
 }
 *,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:"Gowun Dodum","Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -135,7 +136,7 @@ h3.sub{font-size:18px;margin:26px 0 10px}
       <h1>동그라미<br>챌린지</h1>
       <p>모난 말은 둥글게, 고운 말은 더 크게.<br>챌린지에서 사용할 닉네임을 정해 주세요.</p>
       <label class="f" for="nick" style="margin-top:24px">닉네임</label>
-      <input type="text" id="nick" maxlength="12" placeholder="예) 주디" autocomplete="off">
+      <input type="text" id="nick" maxlength="12" placeholder="예) 라미" autocomplete="off">
       <button class="btn" id="nick-go">시작하기</button>
     </div>
   </div>
